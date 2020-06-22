@@ -49,11 +49,11 @@ function convert(num, measurement){
     }
     else if (measurement === "kilometers"){
         converted = "centimeters"
-            return num * 100,000;
+            return num * 100000;
     }
     else if (measurement === "centimeters"){
         converted = "kilometers"
-            return num / 100,000;
+            return num / 100000;
     }
     else if (num === num || measurement === undefined){
         console.log( " we need a unit of measure")
@@ -73,7 +73,7 @@ function convert(num, measurement){
 //message if there are no values inputted
 if(input === undefined){
     console.log( 'please input a number for conversion')
-}else{
+}else{ 
 console.log(result)
 
 }
