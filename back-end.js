@@ -19,7 +19,7 @@ let result = input + input2 + sentence + " " + convert(input, input2) + converte
 function convert(num, measurement){
 
     if( measurement === 'cm'){
-        converted = "inches"
+        converted = "in"
         return num * 2.54 ;
     }
     else if (measurement === 'in'){
