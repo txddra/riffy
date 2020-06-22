@@ -11,8 +11,11 @@ __Imagine__ being able to convert :
 - Inches to feet
 - Feet to inches 
 
-and our newest feature :
+and our newest feature(s) :
 - Miles to Kilometers!
+  
+&
+- Kilometers to Centimeters!
 
 *In the same amount of time that it would probably take to do a google search, but hey, we're already here :D*
 
