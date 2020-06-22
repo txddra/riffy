@@ -1,37 +1,30 @@
 # Riffy
 
-### Introduction
+# Convertinator!
+### _Come one, come all, and witness the greatness that is conversion!_
 
-Today you're going to make a little node app OF YOUR OWN DESIGN that can take in user input and spit out appropriate output. Because we're all node ninjas now!
+__Imagine__ being able to convert :
+- Centimeters to inches
+- Inches to centimeters
+- Inches to feet
+- Feet to inches 
 
+*In the same amount of time that it would probably take to do a google search, but hey, we're already here :D*
 
-### Objectives
+# Steps:
+  **Ask yourself**:
+- *"what unit of measure do I feel like converting from?"*
+- *"what unit of measure do I feel like converting to?"*
+- *"why is my country so afraid of the metric system?"*
+- *"did I leave the oven on?*
 
-After completing this assignment, you will be able to:
+**Once you've ran through that series of questions you're ready to use the app**
 
-* Parse command line text to find the arguments you want.
-* Format those arguments if need be.
-* Use `if` statements to branch your code.
-* Output text back to the user.
-* Keep it all BEAUTIFULLY organized in back and front end files.
-
-
-### The Basics
-
-You'll be making a node app that uses `getInput` to take in input and `console.log` to provide output. You should have already proposed an app in [the Riffy Proposal stage](https://github.com/ci-wdi-900/riffy-proposal), so... do that one!
-
-We'll be presenting these apps, so put your best foot forward!
-
-
-### Guidelines
-
-* Your content must be [SFW](https://en.wikipedia.org/wiki/Not_safe_for_work).
-* You must have a separate front end and back end. That means, at a minimum a `main.js` file with no app logic, only input/output logic.
-* We'll also be converting that proposal into a proper README for our app. Guidelines on that coming soon, and yes, it is an absolute requirement.
-* If you're done early, come talk to us. We can always suggest ways you can extend your app!
+1. input a number, signifying the value that you are going to converting from, and a unit of measure (inches/centimeters/feet, etc.)
+2.  receive the conversion
+3.  **Celebrate!**
 
 
-### Tips and Tricks
+** please note that if you do not enter a value, you will receive a error message.
 
-* Your front end needs to do three things (and three things only!): get the input from the user, feed that input to the back end (possibly calling different back-end functions depending on the shape of the input), and print the answer the back end returns back to the user.
-* If you need a reminder how to use `getInput`, remember that we can use indices to grab different parts of it. Every _space-separated string_ the user writes after `node [filename].js` will be there, _starting at index 0_. So if you need three arguments, they'll be retrievable at `getInput(0)`, `getInput(1)`, and `getInput(2)`.
+## Happy Converting!
