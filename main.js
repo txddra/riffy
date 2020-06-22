@@ -10,16 +10,16 @@ let input2 =getInput(1)
 //sends message back to user
 let sentence = " converted is:"
 let converted = "";
-let result = ""
-if(convert(input,input2)==="How are you doing today?"){
+ let result = ""
+// if(convert(input,input2)==="How are you doing today?"){
 
-result = convert(input,input2)
+// result = convert(input,!input2)
  
-}else{
+// }else{
 result = input + input2 + sentence + " " + convert(input, input2) + converted
  
 
-}
+// }
 
 // function that takes in a number as well as the unit of measure 
 function convert(num, measurement){
@@ -47,9 +47,12 @@ function convert(num, measurement){
         converted = "mi";
             return num * 5 + num /2;
     }
+    else if (num === num || measurement === undefined){
+        console.log( " we need a unit of measure")
+    }
     
    
-}
+ }
 // // asks how your day is?
 //  if( input === "hai") {
 //     console.log( "How are you doing today?");
