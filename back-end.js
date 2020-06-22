@@ -50,6 +50,7 @@ console.log(result)
 
 }
 
+//helper function
 function getInput(n) {
     return process.argv[n + 2];
 }

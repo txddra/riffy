@@ -16,7 +16,7 @@ __Imagine__ being able to convert :
 - *"what unit of measure do I feel like converting from?"*
 - *"what unit of measure do I feel like converting to?"*
 - *"why is my country so afraid of the metric system?"*
-- *"did I leave the oven on?*
+- *"...did I leave the oven on?*
 
 **Once you've ran through that series of questions you're ready to use the app**
 
