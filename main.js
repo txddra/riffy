@@ -10,13 +10,13 @@ let input2 =getInput(1)
 //sends message back to user
 let sentence = " converted is:"
 let converted = "";
- let result = ""
+// let result = ""
 // if(convert(input,input2)==="How are you doing today?"){
 
 // result = convert(input,!input2)
  
 // }else{
-result = input + input2 + sentence + " " + convert(input, input2) + converted
+let result = input + input2 + sentence + " " + convert(input, input2) + converted
  
 
 // }
@@ -41,11 +41,19 @@ function convert(num, measurement){
             return num / 12;
     }else if(measurement === 'mi'){
         converted = "km"
-            return num / 5 - num *2;
+            return num * 0.6214 ;
     }
     else if(measurement === 'km'){
         converted = "mi";
-            return num * 5 + num /2;
+            return num / 0.6214 ;
+    }
+    else if (measurement === "kilometers"){
+        converted = "centimeters"
+            return num * 100,000;
+    }
+    else if (measurement === "centimeters"){
+        converted = "kilometers"
+            return num / 100,000;
     }
     else if (num === num || measurement === undefined){
         console.log( " we need a unit of measure")
