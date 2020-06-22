@@ -7,7 +7,7 @@
 let input = getInput(0)
 let input2 =getInput(1)
 
-
+//sends message back to user
 let sentence = " converted is:"
 let converted = "";
 let result = input + input2 + sentence + " " + convert(input, input2) + converted
@@ -40,4 +40,20 @@ function convert(num, measurement){
     // }
     }
 
-    module.exports=back-end;
+
+
+//message if there are no values inputted
+if(input === undefined){
+    console.log( 'please input a number for conversion')
+}else{
+console.log(result)
+
+}
+
+function getInput(n) {
+    return process.argv[n + 2];
+}
+
+
+
+    module.exports = convert;
