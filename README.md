@@ -11,6 +11,9 @@ __Imagine__ being able to convert :
 - Inches to feet
 - Feet to inches 
 
+and our newest feature :
+- Miles to Kilometers!
+
 *In the same amount of time that it would probably take to do a google search, but hey, we're already here :D*
 
 # Steps:
@@ -22,8 +25,10 @@ __Imagine__ being able to convert :
 
 **Once you've ran through that series of questions you're ready to use the app**
 
-1. input a number, signifying the value that you are going to converting from, and a unit of measure (inches/centimeters/feet, etc.)
+1. input a number, signifying the value that you are going to converting from, and a unit of measure (in/cm/ft/km/mi, etc.)
+   
 2.  receive the conversion
+   
 3.  **Celebrate!**
 
 
